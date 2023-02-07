@@ -1,0 +1,154 @@
+*{
+    background-color: rgb(203, 169, 125);
+}
+html{
+    --l-c:white;
+
+}
+
+/* body{
+    background-color: rgb(55, 106, 128);
+} */
+.heading{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: azure;
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px;
+}
+.tb h6{
+    margin-top: 100px;
+    margin-left: 10px;
+}
+.fb{
+    width: 100px;
+    border: 2px black solid;
+    border-radius: 10px;
+    background-color: rgb(179, 132, 132);
+}
+.fc{
+    border: 2px black solid;
+    background-color: beige;
+    width: 250px;
+    height: 40px;
+    padding-top: 4px;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+.fb:hover{
+    background-color: rgb(99, 132, 221);
+    transform: scaleX(1.2);
+}
+table{
+    border: 2px black solid; 
+    width: 350px;
+    height: 200px; 
+    text-align: center;
+}
+table th{
+    border: 2px black solid;
+    height: 50px;
+    background-color: rgb(195, 175, 214);
+}
+table td{
+    border: 2px black solid;
+    background-color: aliceblue;
+}
+.col-5 h6{
+    margin-top: 100px;
+}
+.switch{
+    width: 100px;
+    height: 100px;
+    /* background-color: yellow; */
+}
+img{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+
+#display1{
+    position: relative;
+}
+
+.con{
+    height: 250px;
+    width: 250px;
+    /* border: 1px black solid; */
+    position: absolute;
+    transform: translate(-60%,-20%);
+    top: 20%;
+    left: 60%;
+}
+.center{
+    transform: translate(-50%);
+    left: 50%;
+}
+.bulb{
+    position: absolute;
+    background-color: var(--l-c);
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    top: 20px;
+}
+
+.close{
+    position: absolute;
+    background-color: var(--l-c);
+    content: "";
+    height: 45px;
+    width: 100px;
+    top: 230px;
+    left: 125px;
+    border-radius: 0 0 5px 5px;
+}
+
+.lower{
+    position: absolute;
+    background-color: rgb(48, 142, 103);
+    width: 85px;
+    height: 50px;
+    border-radius:0 0 10px 10px;
+    top: 275px;
+    left: 125px;
+    
+}
+.down{
+    position: absolute;
+    background-color: rgb(24, 229, 93);
+    width: 40px;
+    height: 20px;
+    border-radius:0 0 10px 10px;
+    top: 325px;
+    left: 125px;
+
+}
+.winding{
+    position: absolute;
+    background-color: rgb(39, 50, 156);
+    width: 100px;
+    height: 7px;
+    border-radius:10px 10px 10px 10px;
+    left: 125px;
+}
+.w1{
+    top: 280px;
+}
+.w2{
+    top: 295px;
+}
+.w3{
+    top: 310px;
+}
+

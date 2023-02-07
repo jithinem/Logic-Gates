@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logic Gates</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  
+</head>
+<body>
+    <div class="container-fluid">
+
+<h1 class="h1">Logic Gates</h1>
+<div class="row">
+
+    <div class="col-3">
+        <h6 class="heading">Select the logic gate you wish to analyse</h6>
+        <div  class="or fc my-5">OR Gate &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button id="or"  class="fb">OR</button></div>
+        <div  class="and fc my-5">AND Gate &nbsp;&nbsp;&nbsp; <button id="and" class="fb">AND</button></div>
+        <div class="nor fc my-5">NOR Gate &nbsp;&nbsp;&nbsp; <button id="nor" class="fb">NOR</button></div>
+        <div class="nand fc my-5">NAND Gate  <button id="nand" class="fb">NAND</button></div>
+        <div class="xor fc my-5">XOR Gate&nbsp;&nbsp;&nbsp; <button id="xor" class="fb">XOR</button></div>
+        <div class="xnor fc my-5">XNOR Gate <button id="xnor" class="fb">XNOR</button></div>
+    </div>
+
+    <div class="col-3 mt-5 tb">
+        <h6 id="gate"></h6>
+        <table >
+            <thead >
+                
+                <tr>
+                    <th >Switch 1</th>
+                    <th>Switch 2</th>
+                    <th>Bulb</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td >OFF</td>
+                    <td >OFF</td>
+                    <td id="b1"></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td >OFF</td>
+                    <td >ON</td>
+                    <td id="b2"></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td >ON</td>
+                    <td >OFF</td>
+                    <td id="b3"></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td >ON</td>
+                    <td >ON</td>
+                    <td id="b4"></td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+
+    <div class="col-5">
+        <h6 id="realize"></h6>
+        <div class="row">
+            <div class="col-2">
+                <div class="form-check form-switch">
+                    <input style="width: 50px;height: 20px;" class="form-check-input sw1" type="checkbox" role="switch" id="flexSwitchCheckDefault" >
+                    <label class="form-check-label fw-bold" for="flexSwitchCheckDefault">&nbsp; s1</label>
+                </div>
+            </div>
+            <div  class="col-2">
+                <div class="form-check form-switch">
+                    <input style="width: 50px;height: 20px;" class="form-check-input sw2" type="checkbox" role="switch" id="flexSwitchCheckDefault" >
+                    <label class="form-check-label fw-bold" for="flexSwitchCheckDefault">&nbsp;s2</label>
+                </div>
+            </div>
+            <div id="display1" class="col-8">
+                <div class="con">
+                    <div class="bulb center">
+                        <!-- <div class="inside center"></div> -->
+                        <div class="close center"></div>
+                        <div class="lower center"></div>
+                        <div class="down center"></div>
+                        <div class="winding w1 center"></div>
+                        <div class="winding w2 center"></div>
+                        <div class="winding w3 center"></div>
+                    </div>
+                </div>            
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+</div>
+</body>
+<script src="./script.js"></script>
+</html>
